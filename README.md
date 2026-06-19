@@ -1,6 +1,6 @@
 # AutoCheckpoint
 
-**Git remembers your code. AutoCheckpoint remembers why it changed.**
+**Never lose your code or AI context again. Auto-saves code, decisions, tasks, and session history across Claude Code, Cursor, Windsurf**
 
 ```bash
 pip install autocheckpoint
