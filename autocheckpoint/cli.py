@@ -68,11 +68,9 @@ def init(
         if not backup_path:
             console.print("\nWhere should backups live?")
             console.print("1. Local Only")
-            console.print("2. Google Drive [green](recommended for cloud VMs)[/green]")
-            console.print("3. OneDrive")
-            console.print("4. Dropbox")
             
-            sel = Prompt.ask("\nSelect option", choices=["1", "2", "3", "4"], default="2")
+
+            sel = Prompt.ask("\nSelect option", choices=["1"])
             if sel == "1":
                 backup_path = Prompt.ask("Enter local backup path", default="~/autocheckpoint_backups")
             else:
